@@ -18,7 +18,10 @@ font-family: "Dancing Script", cursive;
 body {
   font-family: var(--primaryfont);
   
-  background: #f791c4;  /* fallback for old browsers */
+  background: #FFEEEE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;  /* fallback for old browsers */
 /* background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 60%); */
 }
